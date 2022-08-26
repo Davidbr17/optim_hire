@@ -7,13 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-Instrucciones: 
+## Instrucciones: 
 
-1.Instalar proyecto de laravel "composer install"
-2.Configurar .env con alguna base de datos local.
-3.php artisan key:generate
-4.Hacer migraciones "php artisan migrate"
-5.Ejecutar Seeder que lee los estados desde el archivo html y lo inserta en la base de datos "php artisan db:seed"
+- Instalar proyecto de laravel "composer install"
+- Configurar .env con alguna base de datos local.
+- php artisan key:generate
+- Hacer migraciones "php artisan migrate"
+- Ejecutar Seeder que lee los estados desde el archivo html y lo inserta en la base de datos "php artisan db:seed"
 
 
 La petición del zipcode se hace desde la raíz /{zip_code}
