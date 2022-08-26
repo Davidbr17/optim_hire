@@ -13,7 +13,7 @@
 - Configurar .env con alguna base de datos local.
 - php artisan key:generate
 - Hacer migraciones "php artisan migrate"
-- Ejecutar Seeder que lee los estados desde el archivo html y lo inserta en la base de datos "php artisan db:seed"
+- Ejecutar Seeder que lee los estados desde el archivo html y lo inserta en la base de datos "php artisan db:seed" (está parte es un poco tardada)
 
 
 La petición del zipcode se hace desde la raíz /{zip_code}
