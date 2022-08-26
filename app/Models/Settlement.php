@@ -9,7 +9,7 @@ class Settlement extends Model
 {
     use HasFactory;
     public $timestamps = false;
-    protected $hidden = ['pivot','id'];
+    protected $hidden = ['pivot','id','settlement_type_id'];
 
     public function settlementType()
     {
